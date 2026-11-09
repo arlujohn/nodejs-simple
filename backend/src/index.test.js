@@ -1,0 +1,13 @@
+// index.test.js
+import { describe, it, expect } from 'vitest';
+import { add } from './index.js';
+
+describe('add', () => {
+  it('adds two numbers', () => {
+    expect(add(1, 2)).toBe(3);
+  });
+
+  it('handles negatives', () => {
+    expect(add(-1, -1)).toBe(-2);
+  });
+});
