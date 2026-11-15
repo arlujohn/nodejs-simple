@@ -30,6 +30,7 @@ jobs:
       with:
         node-version: 22.x  # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
         cache: 'npm'
+    - run: npm ci
     - run: npm test
   
   image-build-push:
