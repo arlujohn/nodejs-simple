@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-simple",
+  "version": "1.0.0",
+  "description": "Simple Backend",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/src/index.js",
+    "dev": "nodemon backend/src/index.js",
+    "test": "vitest run"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "mongoose": "^8.24.8",
+    "nodemon": "^3.1.14",
+    "vitest": "^5.1.0"
+  }
+}
