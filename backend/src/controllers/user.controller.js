@@ -95,4 +95,4 @@ export {
     registerUser,
     loginUser,
     logoutUser
-}
+};
